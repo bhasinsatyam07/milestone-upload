@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import { Login } from './components/login/Login';
+import { Register } from './components/register/Register';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Navbar from './components/Home/Navbar/Navbar';
+import HeaderFooter from './components/Home/HeaderFooter/HeaderFooter';
+import { Delux } from './components/Rooms/Delux';
+import { Local } from './components/Rooms/Local';
+import { Daily } from './components/Rooms/Daily';
+import { Customer } from './components/CustomerMange/Customer';
+import { Billmanage } from './components/Billmanage/Billmanage';
 
-function App() {
+ const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+    <Router>
+        <Navbar />
+        <Routes>
+            <Route exact path="/" element= {<HeaderFooter />} />
+            <Route  path ="/Login" element= {<Login />} />
+            <Route path ="/Register" element= { <Register />} />
+            <Route path ="/Billmanage" element= {<Billmanage />} />
+            <Route path ="/CustomerManagement" element= {<Customer />} />
+            <Route path ="/Daily" element= {<Daily />} />
+            <Route path ="/Delux" element= {<Delux />} />
+            <Route path ="/Local" element= {<Local />} />
+        </Routes>
+    </Router> 
+    </>
+  )
 }
 
-export default App;
+export default App

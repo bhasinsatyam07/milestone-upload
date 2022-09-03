@@ -1,0 +1,103 @@
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    text-align: left;
+  }header h1{
+    text-align: center;
+    border: 1px solid black;
+    margin-top: 1%;
+    width: 400px;
+    border-radius: 5px 5px 5px 5px;
+    float: right;
+    position: relative;
+    right:18%
+  }
+  header h4{
+    text-align: center;
+    border: 1px solid black;
+    margin-top: 1%;
+    width: 350px;
+    border-radius: 5px 5px 5px 5px;
+    float: right;
+    position: relative;
+    right:21%;
+    background-color: limegreen
+  }
+
+  .img1{
+    position: relative;
+    top: 100px;
+    left: 40px;
+    border: 1px solid black;
+    padding: 1%;
+    padding-bottom: 10%;
+  }
+  .img2{
+    position: relative;
+    top: 100px;
+    left: 120px;
+    border: 1px solid black;
+    padding: 1%;
+    padding-bottom: 10%;
+  }
+  .img3{
+    position: relative;
+    top: -55px;
+    left:500px;
+    border: 1px solid black;
+    padding: 1%;
+    padding-bottom: 10%;
+  }
+  #p1{
+    position: relative;
+    top:-130px;
+    left: -290px
+
+  }
+  #p2{
+    position: relative;
+    top:-155px;
+    left: -76px
+
+  }
+  #p3{
+    position: relative;
+    top:-179px;
+    left: 170px
+
+  }
+
+  #h1{
+    background-color: cadetblue;
+    width: 50px;
+    text-align: center;
+    height: 10px;
+    border-radius: 3px 3px 3px 3px;
+    position: relative;
+    top: -203px;
+    left: 110px;
+  }
+  #h2{
+    background-color: cadetblue;
+    width: 50px;
+    text-align: center;
+    height: 10px;
+    border-radius: 3px 3px 3px 3px;
+    position: relative;
+    top: -225px;
+    left: 330px;
+  }
+  #h3{
+    background-color: cadetblue;
+    width: 50px;
+    text-align: center;
+    height: 10px;
+    border-radius: 3px 3px 3px 3px;
+    position: relative;
+    top: -250px;
+    left: 570px;
+  }
